@@ -1,0 +1,8 @@
+# Ignore root-level files with no extension
+/*
+!*/
+!*.*
+
+.vscode/
+.DS_Store
+hello_world.dSYM/
