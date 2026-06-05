@@ -14,7 +14,10 @@ int example_1(){
 }
 
 int example_2(){
-    
+    int my_array[] = {10, 40, 60, 90};
+    my_array[0] = 5;
+    printf("%d", my_array[0]);
+    return 0;
 }
 
 int main(){
@@ -22,6 +25,7 @@ int main(){
     Store a fixed-size sequence of elements of the same data type.
     Elements can be accessed through their index (arrays are zero-indexed)
     */
-    example_1();
+    //example_1();
+    // example_2();
     return 0;
 }
