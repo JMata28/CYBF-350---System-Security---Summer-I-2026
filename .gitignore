@@ -1,8 +1,9 @@
-# Ignore root-level files with no extension
-/*
-!*/
-!*.*
+# Ignore extensionless filesgit status --untracked-files=all
+**/*
+
+# Re-include files that have an extension
+!**/*.*
 
 .vscode/
 .DS_Store
-hello_world.dSYM/
+Week2/hello_world.dSYM/
