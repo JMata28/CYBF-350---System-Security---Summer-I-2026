@@ -1,9 +1,11 @@
-# Ignore extensionless filesgit status --untracked-files=all
-**/*
-
-# Re-include files that have an extension
-!**/*.*
-
 .vscode/
 .DS_Store
-Week2/hello_world.dSYM/
+Week 2/hello_world.dSYM/
+Week 2/arrays
+Week 2/basic_data_types
+Week 2/basics 
+Week 2/example.py
+Week 2/hello_world
+Week 2/variables
+Week 3/syscalls_example1
+Week 3/syscalls_example2
