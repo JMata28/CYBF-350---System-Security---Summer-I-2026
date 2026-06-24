@@ -48,9 +48,13 @@ int real_demo() {
 
     int *arr = malloc(3 * sizeof(int));
     printf("malloc: created array of 3 ints\n");
+    int array1[] = {1,2,3};
+    *arr = array1;
+    printf("%d\n", arr[2]); 
 
     arr = realloc(arr, 5 * sizeof(int));
     printf("realloc: resized array to 5 ints\n");
+    printf("%d\n", arr[4]); 
 
     free(arr);
     printf("free: memory released\n");
@@ -59,8 +63,8 @@ int real_demo() {
 }
 
 int main(){
-    mal_demo();
-    // cal_demo();
-    //real_demo();
+    //mal_demo();
+    //cal_demo();
+    real_demo();
     return 0;
 }
