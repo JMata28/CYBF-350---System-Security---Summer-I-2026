@@ -1,3 +1,5 @@
+//This code was created with help from AI
+
 #include <string.h>  // Needed for strlen() and strcpy()
 
 // Maximum allowed username size (including null terminator)

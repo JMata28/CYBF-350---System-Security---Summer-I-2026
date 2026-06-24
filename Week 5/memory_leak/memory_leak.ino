@@ -1,6 +1,6 @@
 /*
  * MEMORY LEAK DEMO
- * This code was created with AI
+ * This code was created with help from AI
  * Green LED (Pin 8):
  *   Heap memory is still available.
  *

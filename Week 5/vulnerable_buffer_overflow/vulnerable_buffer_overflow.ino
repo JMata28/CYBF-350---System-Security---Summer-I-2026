@@ -1,3 +1,6 @@
+//This code was made with help from AI
+
+
 #include <string.h>
 
 /*
